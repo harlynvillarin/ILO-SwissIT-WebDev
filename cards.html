@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/4f6038ca81.js" crossorigin="anonymous"></script>
+    <title>Cards</title>
+</head>
+<body>
+
+    <div class="navbar-fixed">
+        <nav class="grey accent">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">Travel with Me</a>
+                    <a href="#" data-target="slide-out" class="sidenav-trigger">
+                        <i class="material-icons">menu</i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li class="active"><a href="sass.html">Home</a></li>
+                        <li><a href="badges.html">Project</a></li>
+                        <li><a href="collapsible.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+    <ul id="slide-out" class="sidenav">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="img/travel4.jpg">
+                </div>
+                    <a href="#user"><img class="circle" src="img/girl.jpg"">
+                    </a>
+                    <a href="#name"><span class="white-text name">Har Vil</span>
+                    </a>
+                    <a href="#email"><span class="white-text email">harvil@gmail.com</span>
+                    </a>
+            </div>
+        </li>
+        <li>
+            <a href="#!"><i class="material-icons right">home</i>Home</a>
+        </li>
+        <li>
+            <a href="#!">About Us</a>
+        </li>
+        <li>
+            <a class="waves-effect" href="#!">Project</a>
+        </li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li>
+            <a class="subheader">Subheader</a>
+        </li>
+    </ul>
+    
+
+    <div class="container">
+        <h1 class="grey-text">Cards</h1>
+        <div class="row">
+            <div class="col s12 m6">
+                <!-- Simple Card without Title-->
+                <div class="card">
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, dolorem?</p>
+                    </div>
+                </div>
+                <!-- Add Color -->
+                <div class="card red darken-2">
+                    <div class="card-content white-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, dolorem?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <!-- Card with Title -->
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Card With Title</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, dolorem?</p>
+                    </div>
+                    <!-- add links -->
+                    <div class="card-action">
+                        <a href="#"">Read More</a>
+                        <a href="#"">Find More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 m6">
+                <!-- Card with image -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/travel1.jpg" alt="">
+                        <span class="card-title">Card Image</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex soluta veritatis, aut doloremque ipsum quo dolores quas sequi sint animi!</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- With Action Button -->
+            <div class="col s12 m6">
+                <!-- Card with image -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/travel2.jpg" alt="">
+                        <span class="card-title">Card Image</span>
+                        <a href="#" class="btn-floating btn-large halfway-fab waves-effect waves-light red">
+                            <i class="material-icons">add</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex soluta veritatis, aut doloremque ipsum quo dolores quas sequi sint animi!</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 m6">
+                <!-- Horizontal -->
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <img src="img/travel3.jpg" alt="">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <span class="card-title">Horizontal</span>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, rem in ea molestias nesciunt nostrum fuga quia nam error veritatis dolorum soluta molestiae, possimus animi harum delectus, accusantium voluptatem repudiandae?</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <!-- Card Reveal -->
+                <div class="card">
+                    <div class="card-image waves-effect waves-light">
+                        <img src="img/travel4.jpg" alt="" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator">
+                            <i class="material-icons right">more_vert</i>
+                            Card Reveal</span>
+                    </div>
+                    <!-- Inside of Reveal -->
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i>
+                            Card Title</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo maiores ipsam libero distinctio tempore blanditiis expedita? At, ad, neque quaerat accusantium deserunt in dolorum, odio nam nihil quis ratione excepturi?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Container -->
+    </div>
+
+
+    <footer class="page-footer grey">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2021 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">Project Harvil</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+        });
+
+    </script>
+</body>
+</html>
